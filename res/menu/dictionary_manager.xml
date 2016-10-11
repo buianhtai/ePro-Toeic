@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:supportlibrary="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_add_dictionary"
+        android:orderInCategory="100"
+        supportlibrary:showAsAction="always"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/dictionary_manager_action_add_dictionary"/>
+
+</menu>

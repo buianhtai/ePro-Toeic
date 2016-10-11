@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mZone.epro"
+    android:versionCode="8"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.mZone.epro.EproApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mZone.epro.LaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mZone.epro.toeic.activity.ToeicTestActivity"
+            android:label="@string/title_activity_toeic_test"
+            android:parentActivityName="com.mZone.epro.LaunchActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.mZone.com.epro.LaunchActivity" />
+        </activity>
+
+        <service
+            android:name="com.mZone.epro.client.task.DownloadManagerService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="com.mZone.epro.client.task.BookDataProcessingIntentService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="com.mZone.epro.client.task.DictionaryDataProcessingIntentService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <provider
+            android:name="com.mZone.epro.client.data.BookProvider"
+            android:authorities="com.mZone.epro.client.data.BookProvider"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="com.mZone.epro.account.AccountActivity"
+            android:label="@string/title_activity_account"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.mZone.epro.LaunchActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.mZone.com.epro.LaunchActivity" />
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+        </activity>
+
+        <provider
+            android:name="com.mZone.epro.dict.data.DictionaryProvider"
+            android:authorities="com.mZone.epro.dict.data.DictionaryProvider"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="com.mZone.epro.dict.activity.DictionaryManagerActivity"
+            android:label="@string/title_activity_dictionary_manager_manager"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.mZone.epro.LaunchActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.mZone.com.epro.LaunchActivity" />
+        </activity>
+        <activity
+            android:name="com.mZone.epro.toeic.activity.ToeicZoomableSubviewImageElementActivity"
+            android:label="@string/title_activity_toeic_zoomable_subview"
+            android:theme="@style/Transparent" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mZone.epro.toeic.activity.ToeicHorizontalSubviewTableElementAcitivity"
+            android:label="@string/title_activity_toeic_horizontal_subview_table_element_acitivity" 
+            android:theme="@style/Transparent"
+            android:screenOrientation="landscape">
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.LoginActivity"></activity>
+         <activity
+            android:name="com.mZone.epro.account.twitter.TwitterWebLoginActivity"
+            android:label="@string/twitter_web_login_activity_name"
+            android:parentActivityName="com.mZone.epro.account.AccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mZone.epro.account.AccountActivity" />
+        </activity>
+    </application>
+
+</manifest>

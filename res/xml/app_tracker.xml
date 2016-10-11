@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <screenName name="com.mZone.epro.LaunchActivity">LaunchActivity</screenName>
+    <screenName name="com.mZone.epro.toeic.activity.ToeicTestActivity">ToeicTestActivity</screenName>
+
+    <string name="ga_trackingId">UA-56314358-1</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <integer name="ga_sessionTimeout">600</integer>
+
+</resources>

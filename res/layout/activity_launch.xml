@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+	        android:id="@+id/content_frame"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:weightSum="1.0"
+	        android:gravity="bottom"
+	        android:orientation="vertical">  
+            <LinearLayout 
+		        android:id="@+id/loadingBar"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="0.117"
+		        android:background="#c0000000"
+		        android:gravity="center_vertical"
+		        android:orientation="horizontal">
+		
+		        <ProgressBar
+		            android:id="@+id/progressBarLoading"
+		            style="?android:attr/progressBarStyleLarge"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="@dimen/launch_home_progressbar_margin_left"/>
+		        <TextView 
+		            android:id="@+id/textviewLoading"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:paddingLeft="@dimen/launch_home_tv_loading_padding_l"
+		            android:gravity="center_vertical"
+		            android:textSize="@dimen/launch_home_tv_loading_textsize"
+		            android:textColor="#EBEBEB"
+		            android:text="@string/launch_home_fragment_bottom_status_loading"/>
+		    </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <!-- The navigation drawer -->
+    <LinearLayout 
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/launch_activity_side_menu_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="@color/sidemenu_background_color"
+        android:weightSum="1.0">
+        <ListView
+	        android:id="@+id/left_drawer_lv"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1.0"
+	        android:layout_gravity="start"
+	        android:choiceMode="singleChoice"
+	        android:dividerHeight="1dp"
+	        android:divider="@color/sidemenu_listview_divider_color"/>
+        <LinearLayout 
+            android:id="@+id/left_drawer_account_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/launch_activity_side_menu_bottom_account_layout_height"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:background="@drawable/sidemenu_account_layout_selector"
+            android:clickable="true"
+            android:paddingLeft="@dimen/launch_activity_side_menu_bottom_account_padding_left">
+           	<ImageView 
+           	    android:id="@+id/left_drawer_account_imgv"
+           	    android:layout_width="@dimen/launch_activity_side_menu_bottom_account_imgv_size"
+            	android:layout_height="@dimen/launch_activity_side_menu_bottom_account_imgv_size"
+            	android:layout_gravity="center_vertical"
+            	android:src="@drawable/ic_account"/>
+           	<TextView 
+           	    android:id="@+id/left_drawer_account_tv"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:layout_gravity="center_vertical"
+           	    android:layout_marginLeft="@dimen/launch_activity_side_menu_bottom_account_tv_margin_l"
+           	    android:textSize="@dimen/launch_activity_side_menu_bottom_account_tv_textsize"
+           	    android:singleLine="true"
+           	    android:textColor="@color/sidemenu_normal_text_color"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

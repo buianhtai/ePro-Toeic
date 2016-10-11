@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/mint">
+        <com.mZone.epro.dict.dictionary.ClearableEditText 
+            android:id="@+id/edit_text_clearable"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+        	android:layout_marginBottom="5dp"
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp">
+        </com.mZone.epro.dict.dictionary.ClearableEditText>
+        <Button
+            android:id="@+id/dict_favorite" 
+            android:layout_height="@dimen/launch_dictionary_favorite_button_height"
+            android:layout_width="wrap_content"
+            android:text="@string/launch_dictionary_favorite_button_text"
+            style="?android:attr/buttonBarButtonStyle"
+            android:drawableRight="@drawable/apptheme_btn_rating_star_on_pressed_holo_light"/>
+    </LinearLayout>
+    <ListView 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toeic_dict_fragment_listview_height"
+        android:id="@+id/search_result_listview">
+    </ListView>
+</LinearLayout>

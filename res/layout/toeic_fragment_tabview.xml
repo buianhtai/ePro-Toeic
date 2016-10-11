@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@android:id/tabhost">
+    
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	    <HorizontalScrollView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:fillViewport="true"
+                          android:scrollbars="none"
+                          android:id="@+id/horizontalTabView">
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:orientation="horizontal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	    </HorizontalScrollView> 
+	    <View
+	        android:id="@+id/tabview_tabwidget_bottom_shadow" 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="@drawable/tabview_tabwidget_bottom_shadow"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0"/>
+		<RelativeLayout
+		    android:id="@+id/tabview_content_view" 
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_background_color">
+		    <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_marginTop="@dimen/toeic_tabview_background_layoutmargin_tb"
+		        android:layout_alignParentTop="true"
+		        android:background="@drawable/listview_content_background"/>
+		    <android.support.v4.view.ViewPager
+	            android:id="@+id/viewPager"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="@dimen/toeic_tabview_viewpager_layoutmargin_top"/>
+		</RelativeLayout>
+    </LinearLayout>
+</TabHost>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/launch_about_horizontal_margin"
+        android:layout_marginRight="@dimen/launch_about_horizontal_margin"
+        android:orientation="vertical" >
+        
+        <!--  
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_about_app_help_tittle" />
+        
+        <RelativeLayout
+  			android:layout_width="match_parent"
+      		android:layout_height="wrap_content" >
+
+      		<Button
+     			android:id="@+id/launch_about_help_book_dowload"
+         		style="?android:attr/borderlessButtonStyle"
+         		android:layout_width="match_parent"
+         		android:layout_height="wrap_content"
+       			android:layout_centerInParent="true" />
+
+         	<TextView
+            	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:layout_alignParentLeft="true"
+              	android:layout_centerVertical="true"
+              	android:layout_marginLeft="@dimen/launch_about_list_item_horizontal_margin"
+               	android:layout_marginRight="@dimen/launch_about_list_item_horizontal_margin"
+               	android:text="@string/launch_about_app_help_book_download_tittle"
+              	android:textAppearance="?android:attr/textAppearanceSmall" />
+  		</RelativeLayout>
+        -->
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_about_app_about_tittle"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    	<RelativeLayout
+  			android:layout_width="match_parent"
+      		android:layout_height="wrap_content" 
+      		android:visibility="gone">
+
+      		<Button
+     			android:id="@+id/launch_about_developer_homepage"
+         		style="?android:attr/borderlessButtonStyle"
+         		android:layout_width="match_parent"
+         		android:layout_height="wrap_content"
+       			android:layout_centerInParent="true" />
+
+         	<TextView
+            	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:layout_alignParentLeft="true"
+              	android:layout_centerVertical="true"
+              	android:layout_marginLeft="@dimen/launch_about_list_item_horizontal_margin"
+               	android:layout_marginRight="@dimen/launch_about_list_item_horizontal_margin"
+               	android:text="@string/launch_about_app_about_developer_homepage_title"
+              	android:textAppearance="?android:attr/textAppearanceMedium" />
+  		</RelativeLayout>
+        
+  		<RelativeLayout
+  			android:layout_width="match_parent"
+      		android:layout_height="wrap_content" >
+
+      		<Button
+     			android:id="@+id/launch_about_user_guide"
+         		style="?android:attr/borderlessButtonStyle"
+         		android:layout_width="match_parent"
+         		android:layout_height="wrap_content"
+       			android:layout_centerInParent="true" />
+
+         	<TextView
+            	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:layout_alignParentLeft="true"
+              	android:layout_centerVertical="true"
+              	android:layout_marginLeft="@dimen/launch_about_list_item_horizontal_margin"
+               	android:layout_marginRight="@dimen/launch_about_list_item_horizontal_margin"
+               	android:text="@string/launch_about_app_about_user_manual_title"
+              	android:textAppearance="?android:attr/textAppearanceMedium" />
+  		</RelativeLayout>
+        
+    	<RelativeLayout
+  			android:layout_width="match_parent"
+      		android:layout_height="wrap_content" >
+
+      		<Button
+     			android:id="@+id/launch_about_rating_us"
+         		style="?android:attr/borderlessButtonStyle"
+         		android:layout_width="match_parent"
+         		android:layout_height="wrap_content"
+       			android:layout_centerInParent="true" />
+
+         	<TextView
+            	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:layout_alignParentLeft="true"
+              	android:layout_centerVertical="true"
+              	android:layout_marginLeft="@dimen/launch_about_list_item_horizontal_margin"
+               	android:layout_marginRight="@dimen/launch_about_list_item_horizontal_margin"
+               	android:text="@string/launch_about_app_about_rating_us_title"
+              	android:textAppearance="?android:attr/textAppearanceMedium" />
+  		</RelativeLayout>
+        
+    	<RelativeLayout
+  			android:layout_width="match_parent"
+      		android:layout_height="wrap_content" >
+
+      		<Button
+     			android:id="@+id/launch_about_about_opensource"
+         		style="?android:attr/borderlessButtonStyle"
+         		android:layout_width="match_parent"
+         		android:layout_height="wrap_content"
+       			android:layout_centerInParent="true" />
+
+         	<TextView
+            	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:layout_alignParentLeft="true"
+              	android:layout_centerVertical="true"
+              	android:layout_marginLeft="@dimen/launch_about_list_item_horizontal_margin"
+               	android:layout_marginRight="@dimen/launch_about_list_item_horizontal_margin"
+               	android:text="@string/launch_about_app_about_opensource_tittle"
+              	android:textAppearance="?android:attr/textAppearanceMedium" />
+  		</RelativeLayout>
+  		
+    	<LinearLayout
+    		android:layout_width="match_parent"
+     		android:layout_height="wrap_content"
+       		android:baselineAligned="true"
+   			android:gravity="center_vertical"
+   			android:minHeight="48dp"
+     		android:orientation="horizontal"
+     		android:paddingLeft="@dimen/launch_about_list_item_horizontal_margin"
+ 			android:paddingRight="@dimen/launch_about_list_item_horizontal_margin" >
+
+       		<TextView
+               	android:layout_width="0dp"
+               	android:layout_height="wrap_content"
+              	android:layout_weight="1"
+               	android:text="@string/launch_about_app_about_label_version"
+              	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+           	<TextView
+             	android:layout_width="wrap_content"
+              	android:layout_height="wrap_content"
+               	android:layout_weight="0"
+               	android:text="@string/launch_about_app_about_version"
+              	android:textAppearance="?android:attr/textAppearanceMedium" />
+      	</LinearLayout>
+    </LinearLayout>
+</ScrollView>

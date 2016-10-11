@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="get_book_from_server_task_loader_id"/>
+   	<item type="id" name="logout_task_loader_id"/>
+   	<item type="id" name="login_task_loader_id"/>
+   	<item type="id" name="google_purchase_finish_task_loader_id"/>
+   	<item type="id" name="toeic_test_activity_dictionary_loading_task_loader_id"/>
+   	<item type="id" name="launch_dictionary_loading_task_loader_id"/>
+   	<item type="id" name="dictionary_manager_acitivity_loading_from_server_task_loader_id"/>
+   	<item type="id" name="dictionary_manager_acitivity_local_dict_manager_loader_id"/>
+   	<item type="id" name="twitter_web_login_activity_load_oauth_request_token"/>
+	<item type="id" name="twitter_web_login_activity_load_access_token"/>
+   	
+   	
+</resources>

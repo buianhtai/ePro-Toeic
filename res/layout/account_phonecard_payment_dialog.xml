@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phonecardDialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+	    android:orientation="horizontal"
+	    android:gravity="bottom|center_horizontal"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp">
+	  	<TextView
+	        android:id="@+id/lblCardType"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dp"
+	        android:text="@string/account_activity_phonecard_dialog_lbl_cardtype"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	  	<Spinner
+	        android:id="@+id/spinCardType"
+	        android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	   		android:layout_weight="1.0" 
+	   		android:entries="@array/account_activity_phonecard_dialog_spin_cardtype"
+	        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+	    android:orientation="horizontal"
+	    android:gravity="bottom|center_horizontal"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp">
+	  	<TextView
+	        android:id="@+id/lblSerialNumber"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dp"
+	        android:text="@string/account_activity_phonecard_dialog_lbl_serial"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	  	<EditText
+	        android:id="@+id/editSerial"
+	        android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	   		android:layout_weight="1.0" 
+	   		android:hint="@string/account_activity_phonecard_dialog_edit_serial_hint"
+	        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+	    android:orientation="horizontal"
+	    android:gravity="bottom|center_horizontal"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp">
+	  	<TextView
+	        android:id="@+id/lblPinNumber"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="10dp"
+	        android:text="@string/account_activity_phonecard_dialog_lbl_pin"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	  	<EditText
+	        android:id="@+id/editPin"
+	        android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	   		android:layout_weight="1.0" 
+	   		android:hint="@string/account_activity_phonecard_dialog_edit_pin_hint"
+	        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+
+</LinearLayout>

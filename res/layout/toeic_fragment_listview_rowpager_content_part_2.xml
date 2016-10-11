@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center">
+    <com.mZone.epro.toeic.customView.ToeicResizableImageView
+        android:id="@+id/rowTemporaryImage"
+        android:layout_width="@dimen/Part2_content_temporary_imageview_width"
+        android:layout_height="wrap_content"
+        android:src="@drawable/temporary_listening_background"
+        android:scaleType="fitCenter">
+    </com.mZone.epro.toeic.customView.ToeicResizableImageView>
+	<com.mZone.epro.toeic.customView.ToeicCustomRadioGroup
+	    android:id="@+id/rowRadioGroup"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:splitMotionEvents="false"
+	    app:numberOfChoice="3"
+	    app:customOrientation="1">
+	</com.mZone.epro.toeic.customView.ToeicCustomRadioGroup>
+</LinearLayout>

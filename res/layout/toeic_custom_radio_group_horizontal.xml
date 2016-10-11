@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton 
+        android:id="@+id/radioButtonA"
+        android:layout_width="@dimen/horizontal_customRadioButtonWidth"
+        android:layout_height="@dimen/horizontal_customRadioButtonHeight"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:layout_marginBottom="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:padding="@dimen/horizontal_customRadioButtonPadding"/>
+    <ImageButton 
+        android:id="@+id/radioButtonB"
+        android:layout_width="@dimen/horizontal_customRadioButtonWidth"
+        android:layout_height="@dimen/horizontal_customRadioButtonHeight"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:layout_marginBottom="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:padding="@dimen/horizontal_customRadioButtonPadding"/>
+    <ImageButton 
+        android:id="@+id/radioButtonC"
+        android:layout_width="@dimen/horizontal_customRadioButtonWidth"
+        android:layout_height="@dimen/horizontal_customRadioButtonHeight"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:layout_marginBottom="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:padding="@dimen/horizontal_customRadioButtonPadding"/>
+    <ImageButton 
+        android:id="@+id/radioButtonD"
+        android:layout_width="@dimen/horizontal_customRadioButtonWidth"
+        android:layout_height="@dimen/horizontal_customRadioButtonHeight"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:layout_marginBottom="@dimen/horizontal_customRadioButtonMarginTopBottom"
+        android:padding="@dimen/horizontal_customRadioButtonPadding"/>
+
+</merge>

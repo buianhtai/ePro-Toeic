@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- seekbar value -->
+    <color name="timeIndicatorTextColor">#c8c7c9</color>  <!-- 434957 #fafafa-->
+    <color name="cyan">#33B5E5</color>
+    <color name="mint">#81cb39</color>
+    <color name="mint_press">#4A7520</color>
+    <color name="android_blue">#33b5e5</color>
+    <color name="android_blue_press">#0680AC</color>
+    
+    <!-- constant color -->
+    <color name="transparent">#00000000</color>
+    
+    <!-- listview main layout color-->
+    <color name="main_background_color">#C1C1C1</color> <!-- A8A8A8 DBDBDB eaeaea-->
+    <color name="gridview_background_color">#E1E1E1</color>
+    
+    <!-- audio bar background color -->
+    <color name="audio_background_color">#df000000</color> <!-- 7f434957 dfeeeff4-->
+    
+    <!-- list view color -->
+    <color name="listview_header_text_color">#81cb39</color> <!-- fafafa 363636 -->
+    <color name="text_index_header_color">#81cb39</color>
+    <color name="script_subject_text_color">#81cb39</color>
+    <color name="tabview_tab_text_color">#81cb39</color>
+     
+    <color name="text_normal_color">#434957</color>
+    <color name="text_unselected_color">#BABABA</color>
+    <color name="text_rightwrong_color">#c34444</color>
+    <color name="question_text_color">#434957</color>
+    <color name="subheader_question_text_color">#434957</color>
+    
+    <color name="tab_text_unselected">#9d9d9d</color>
+    <color name="tab_text_selected">#81cb39</color>
+    <color name="android_holo_blue">#33b5e5</color>
+    
+    <color name="launch_home_viewpager_textview_hover_color">#66CD00</color>
+    <color name="launch_home_viewpager_textview_normal_color">#F7F7F7</color>
+    
+    <color name="launch_store_grid_item_tv_textcolor">#686868</color>
+    <color name="launch_store_grid_item_btnaction_normal_color">#f0f0f0</color>
+    <color name="launch_store_grid_item_btnaction_press_color">#b1b1b1</color>
+    <color name="launch_store_grid_item_btnaction_open_normal_color">#81cb39</color>
+    <color name="launch_store_grid_item_btnaction_open_press_color">#4A7520</color> 
+    
+    <!-- sidemenu -->
+    <color name="sidemenu_home_store_text_color">#81cb39</color>
+    <color name="sidemenu_normal_text_color">#ffffff</color>
+    <color name="sidemenu_background_color">#C0222222</color>
+    <color name="sidemenu_listview_divider_color">#5C5C5C</color>
+    <color name="sidemenu_account_layout_normal_background">#00000000</color>
+    <color name="sidemenu_account_layout_press_background">#ff33b5e5</color>
+    
+    <!-- launch home book delete background for viewpager -->
+    <color name="delete_book_outside_background">#a0ff0000</color>
+    <color name="delete_book_inside_background">#a081cb39</color>
+    <color name="delete_book_drag_end_background">#00000000</color>
+    
+    <!-- history fragment -->
+    <color name="launch_history_review_normal_color">#33b5e5</color>
+    <color name="launch_history_review_press_color">#0680AC</color>
+    <color name="launch_history_continue_normal_color">#81cb39</color>
+    <color name="launch_history_continue_press_color">#4A7520</color> 
+    
+    <!-- account activity -->
+    <color name="account_activity_log_button_normal_color">#b1b1b1</color>
+    <color name="account_activity_log_button_press_color">#979797</color>
+    <color name="account_activity_blue_color">#7cbce4</color>
+    <color name="account_activity_google_credit_gray">#7d7d7d</color>
+    <color name="account_activity_google_credit_blue">#7cbce4</color>
+    <color name="account_activity_google_credit_blue_press">#5D8AA8</color>
+    <color name="account_activity_google_credit_red">#f26d7d</color>
+    <color name="account_activity_google_credit_red_press">#A94B55</color>
+    <color name="account_activity_google_credit_green">#1fbba6</color>
+    <color name="account_activity_google_credit_green_press">#178D7D</color>
+    
+    
+    <!-- Toeic activity Result Dialog -->
+    <color name="toeic_result_dialog_pie_baseColor">#FFFFFF</color>
+    <color name="toeic_result_dialog_pie_boundStrokeColor">#33b5e5</color>
+    <color name="toeic_result_dialog_pie_part_1">#FF30F2</color>
+    <color name="toeic_result_dialog_pie_part_2">#30D0FF</color>
+    <color name="toeic_result_dialog_pie_part_3">#FFFF30</color>
+    <color name="toeic_result_dialog_pie_part_4">#FF3030</color>
+    <color name="toeic_result_dialog_pie_part_5">#FF294D</color>
+    <color name="toeic_result_dialog_pie_part_6">#3F29FF</color>
+    <color name="toeic_result_dialog_pie_part_7">#30FF45</color>
+    
+    <!-- Version 1.1 tabhost launch home fragment -->
+    <color name="launch_home_fragment_tabhost_tab_blue">#157EFB</color>
+    
+</resources>

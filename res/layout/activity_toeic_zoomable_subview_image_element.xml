@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+	tools:context=".ToeicZoomableSubviewImageElementActivity"
+   	android:id="@+id/topLevelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+    
+    <com.polites.android.GestureImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" 
+    	gesture-image:min-scale="0.75"
+    	gesture-image:max-scale="4.0"/>
+
+</LinearLayout>

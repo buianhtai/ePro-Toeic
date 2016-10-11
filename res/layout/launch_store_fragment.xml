@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridviewStore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingLeft="@dimen/launch_store_padding"
+    android:paddingRight="@dimen/launch_store_padding"
+    android:verticalSpacing="@dimen/launch_store_vertical_spacing"
+    android:horizontalSpacing="@dimen/launch_store_horizontal_spacing"
+    android:numColumns="@integer/launch_store_fragment_number_of_colums"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:background="@color/gridview_background_color"
+    android:drawSelectorOnTop="true">
+</GridView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="toeicCustomHorizontalLinearLayout_distanceFromTextviewToBottom">15</integer>
+	<integer name="toeicCustomHorizontalLinearLayout_textviewLayoutweight">16</integer>
+     
+	<integer name="launch_home_fragment_mybook_fragment_imageview_rotation">15</integer>
+	<integer name="launch_home_fragment_mybook_fragment_item_number">6</integer>
+     
+	<integer name="launch_store_fragment_number_of_colums">3</integer>
+     
+	<integer name="tittle_offset_dip">24</integer>
+   	<integer name="tabview_padding_dip">16</integer>
+  	<integer name="tabview_textsize_sp">20</integer>
+  	
+	<integer name="selected_indicator_thickness_dip">8</integer>
+  	
+     <integer name="ad_size">2</integer>
+          
+</resources>

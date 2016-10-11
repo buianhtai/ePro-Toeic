@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="@dimen/Part4_script_margin_lr"
+	    android:layout_marginRight="@dimen/Part4_script_margin_lr"
+	    android:layout_marginTop="@dimen/Part4_script_margin_t"
+	    android:layout_marginBottom="@dimen/Part4_script_margin_b"
+	    android:gravity="center_vertical"
+	    android:orientation="vertical"
+	    android:background="@drawable/subview_background">
+        <com.mZone.epro.toeic.customView.CustomWordClickableScriptTextview 
+			android:id="@+id/content"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/Part4_script_content_padding_lr"
+			android:layout_marginRight="@dimen/Part4_script_content_padding_lr"
+			android:layout_marginTop="@dimen/Part4_script_content_padding_tb"
+			android:layout_marginBottom="@dimen/Part4_script_content_padding_tb"
+			android:textSize="@dimen/Part4_script_content_fontsize"		
+			android:textColor="@color/text_normal_color"/>
+    </LinearLayout>
+</LinearLayout>

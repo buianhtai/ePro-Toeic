@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageButton 
+        android:id="@+id/radioButtonA"
+        android:layout_width="@dimen/customRadioButtonWidth"
+        android:layout_height="@dimen/customRadioButtonHeight"
+        android:layout_marginTop="@dimen/customRadioButtonMarginTopBottom"
+        android:padding="@dimen/customRadioButtonPadding"
+        android:background="@drawable/audiobar_button_style"
+        android:src="@drawable/custom_radio_controll_button_style_a"
+        android:scaleType="fitCenter"/>
+    <ImageButton 
+        android:id="@+id/radioButtonB"
+        android:layout_width="@dimen/customRadioButtonWidth"
+        android:layout_height="@dimen/customRadioButtonHeight"
+        android:layout_marginTop="@dimen/customRadioButtonMarginTopBottom"
+        android:padding="@dimen/customRadioButtonPadding"
+        android:background="@drawable/audiobar_button_style"
+        android:src="@drawable/custom_radio_controll_button_style_a"
+        android:scaleType="fitCenter"/>
+    <ImageButton 
+        android:id="@+id/radioButtonC"
+        android:layout_width="@dimen/customRadioButtonWidth"
+        android:layout_height="@dimen/customRadioButtonHeight"
+        android:background="@drawable/audiobar_button_style"
+        android:layout_marginTop="@dimen/customRadioButtonMarginTopBottom"
+        android:padding="@dimen/customRadioButtonPadding"
+        android:src="@drawable/custom_radio_controll_button_style_a"
+        android:scaleType="fitCenter"/>
+    <ImageButton 
+        android:id="@+id/radioButtonD"
+        android:layout_width="@dimen/customRadioButtonWidth"
+        android:layout_height="@dimen/customRadioButtonHeight"
+        android:layout_marginTop="@dimen/customRadioButtonMarginTopBottom"
+        android:layout_marginBottom="@dimen/customRadioButtonMarginTopBottom"
+        android:padding="@dimen/customRadioButtonPadding"
+        android:background="@drawable/audiobar_button_style"
+        android:src="@drawable/custom_radio_controll_button_style_a"
+        android:scaleType="fitCenter"/>
+</merge>

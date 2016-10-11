@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ePro TOEIC</string>
+    <string name="action_settings">設定</string>
+    <string name="title_activity_toeic_test">ToeicTestActivity</string>
+ 	<string name="toeic_activity_actionbar_review">復習</string>
+    <string name="toeic_title_section1">聴解  1</string>
+    <string name="toeic_title_section2">聴解  2</string>
+    <string name="toeic_title_section3">聴解  3</string>
+    <string name="toeic_title_section4">聴解  4</string>
+    <string name="toeic_title_section5">読解  5</string>
+    <string name="toeic_title_section6">読解  6</string>
+    <string name="toeic_title_section7">読解  7</string>
+    <string name="drawer_open">ホーム</string>
+    <string name="drawer_close">メニュー</string>
+    <string name="image_view_content_description">content description</string>
+
+    <!-- actionbar -->
+    <string name="launch_menu_action_search">本を検索</string>
+    <string name="launch_menu_action_refresh">Refresh</string>
+    <string name="launch_menu_action_home">ホーム</string>
+    <string name="launch_menu_action_store">ストアー</string>
+    <string name="launch_menu_action_setting_dictionary">辞書設定</string>
+
+    <!-- actionbar toeic test menu -->
+    <string name="toeic_test_menu_action_finish_test">完了</string>
+    <string name="toeic_test_menu_action_review_score">スコア</string>
+    <string name="toeic_test_menu_action_undo">ハイライト取り消す</string>
+    <string name="toeic_test_menu_action_dictsearch">辞書</string>
+    
+
+    <!-- Network Error Dialog -->
+    <string name="network_error_dialog_tittle">警報</string>
+    <string name="network_error_dialog_message">インターネットが接続できません</string>
+    <string name="network_error_dialog_position_btn">設定</string>
+    <string name="network_error_dialog_negative_btn">キャンセル</string>
+
+    <!-- side menu -->
+    <string name="sidemenu_title_home">ホーム</string>
+    <string name="sidemenu_title_store">ストアー</string>
+    <string name="sidemenu_title_history">テスト履歴</string>
+    <string name="sidemenu_title_dictionary">辞書</string>
+    <string name="sidemenu_title_setting">アプリについて</string>
+    <string name="sidemenu_no_account">アカウント設定</string>
+
+    <!-- other -->
+    <string name="launch_activity_backpress_exit">BACKをもう一度押す、アプリを終了します！</string>
+    
+    <!-- launch activity -->
+    <!-- open test -->
+    <string name="test_open_dialog_tittle">テストモード選択</string>
+
+    <string-array name="test_open_dialog_items">
+        <item>実戦モード</item>
+        <item>練習モード（ワードをプレスすると、辞書で検索します！）</item>
+    </string-array>
+
+    <!-- delete dialog -->
+    <string name="launch_home_fragment_delete_dialog_message">このテストを削除しますか。</string>
+    <string name="launch_home_fragment_delete_dialog_cancel_btn">キャンセル</string>
+    <string name="launch_home_fragment_delete_dialog_confirm_btn">削除</string>
+
+    <!-- loading book -->
+    <string name="launch_home_fragment_bottom_status_loading">データ通信しています &#8230;</string>
+    <string name="launch_home_fragment_network_error">Network Error!</string>
+    <string name="launch_home_fragment_server_maintenance">Server Maintenance! </string>
+
+    <!-- launch store -->
+    <string name="launch_store_fragment_free_book">フリー</string>
+   	<string name="launch_store_fragment_open">オープン</string>
+    <string name="launch_store_fragment_backup_book">バックアップ</string>
+    <string name="loading_account_info_dialog_message">アカウント情報を受信しています &#8230;</string>
+    <string name="download_dialog_message">このテストを買いますか？</string>
+    <string name="download_dialog_backup_message">このテストをバックアップしますか？</string>
+    <string name="download_dialog_confirm_btn">はい</string>
+    <string name="download_dialog_not_enough_credit_message">クレジットが足りませんでした！</string>
+    <string name="download_dialog_not_enough_credit_btn">クレジットを買う</string>
+    <string name="no_account_dialog_tittle">警報</string>
+    <string name="no_account_dialog_message">本を買うために、アカウント設定必要です！\n５秒で、新規アカウントを設定し、80クレジットを受けましょう！</string>
+    <string name="no_account_dialog_cancel_btn">キャンセル</string>
+    <string name="no_account_dialog_setup_btn">アカウント設定</string>
+    
+    <!-- launch dictionary -->
+    <string name="launch_dictionary_favorite_button_text">お気に入り</string>
+    
+   	<!-- launch about -->
+    <string name="launch_about_app_help_tittle">ePro Help</string>
+    <string name="launch_about_app_help_book_download_tittle">Download new Test</string>
+    <string name="launch_about_app_about_tittle">アプリについて</string>
+    <string name="launch_about_app_about_opensource_tittle">ソフトウェアライセンス</string>
+   	<string name="launch_about_app_about_label_version">バージョン</string>
+    <string name="launch_about_app_about_version">1.0.2</string>
+    <string name="launch_about_app_about_rating_us_title">アプリを星５つ評価しましょう！</string>
+    <string name="launch_about_app_about_user_manual_title">ユーザーガイドライン (Youtube ビデオ)</string>
+  	<string name="launch_about_app_about_developer_homepage_title">ディベロッパーホームページ</string>
+    
+    <string name="open_source_license_dialog_fragment_title">ソフトウェアライセンス</string>
+    <string name="open_source_license_dialog_fragment_positive_button">閉じる</string>
+    
+    <!-- Dictionary Dialog Fragment -->
+    <string name="dict_show_word_dialog_close_btn">OK</string>
+
+    <!-- test history -->
+    <string name="launch_history_string_mode_practice">モード: 練習</string>
+    <string name="launch_history_string_mode_test">モード: 実戦</string>
+    <string name="launch_history_string_status_doing">状態: テスト中</string>
+    <string name="launch_history_string_status_finish">状態: 完了</string>
+    <string name="launch_history_string_actionbtn_status_finish">復習</string>
+    <string name="launch_history_string_actionbtn_status_doing">続く</string>
+    <string name="launch_history_string_score">スコア </string>
+    <string name="launch_history_string_score_mark">ポイント</string>
+    <string name="launch_history_empty_history_text">履歴がありません</string>
+
+    <!-- Toeic test activity -->
+    <!-- dialog -->
+    <string name="quit_test_dialog_title">警報</string>
+    <string name="quit_test_dialog_message">このテストを終了しますか？</string>
+    <string name="quit_test_dialog_cancel_btn">キャンセル</string>
+    <string name="quit_test_dialog_quit_not_save_btn">保存しないで終了</string>
+    <string name="quit_test_dialog_quit_and_save_btn">保存する終了</string>
+    <string name="quit_test_review_dialog_title">警報</string>
+    <string name="quit_test_review_dialog_message">復習モードを終了しますか？</string>
+    <string name="quit_test_review_dialog_cancel_btn">NO</string>
+    <string name="quit_test_review_dialog_quit_btn">終了</string>
+    <string name="quit_test_finish_dialog_title">警報</string>
+    <string name="quit_test_finish_dialog_message">テストを完了しますか？</string>
+    <string name="quit_test_finish_dialog_cancel_btn">キャンセル</string>
+    <string name="quit_test_finish_dialog_quit_btn">完了</string>
+    <string name="quit_test_auto_finish_toast_message">テスト終了までに5分しかない残ります！</string>
+    <string name="quit_test_auto_finish_dialog_tittle">警報</string>
+    <string name="quit_test_auto_finish_dialog_message">テストが終わります、OKボタンを押してください！</string>
+    <string name="quit_test_auto_finish_dialog_confirm_btn">OK</string>
+    <string name="finish_test_result_dialog_tittle">スコア</string>
+    <string name="finish_test_result_dialog_quit_btn">テスト終了</string>
+    <string name="finish_test_result_dialog_review_btn">復習</string>
+
+    <!-- Account -->
+    <string name="title_activity_account">アカウント設定</string>
+    <string name="choose_account_dialog_tittle">アカウントを選択してください。</string>
+    <string name="account_activity_no_account">アカウント設定</string>
+    <string name="account_activity_login">LOGIN</string>
+    <string name="account_activity_logout">LOG OUT</string>
+   	<string name="account_activity_logout_alert_tittle">警報</string>
+    <string name="account_activity_logout_alert_message">このアカウントをログアウトしますか？\nそうするとホンを買えません！</string>
+    <string name="account_activity_logout_alert_cancel">NO</string>
+    <string name="account_activity_logout_alert_confirm">ログアウト</string>
+    <string name="account_activity_share">毎日アプリを共有、\n5クレジットを受ける！</string>
+    <string name="account_activity_buy_credit">BUY NOW</string>
+    <string name="account_activity_credit">credits</string>
+    <string name="account_activity_no_credit">新規のは80クレジット!</string>
+    <string name="account_activity_credit_price_1">0.99$</string>
+    <string name="account_activity_credit_price_2">1.99$</string>
+    <string name="account_activity_credit_price_3">4.99$</string>
+    <string name="account_activity_credit_price_1_credit">99\ncredits</string>
+    <string name="account_activity_credit_price_2_credit">199\ncredits</string>
+    <string name="account_activity_credit_price_3_credit">499\ncredits</string>
+    <string name="account_activity_free_credit">広告クリック、1クレジット受ける！</string>
+    <string name="account_activity_no_account_dialog_tittle">警報</string>
+    <string name="account_activity_no_account_dialog_message">アカウント設定が必要です！</string>
+    <string name="account_activity_no_account_dialog_message_earn_free_credit">アカウント設定が必要です！</string>
+    <string name="account_activity_no_account_dialog_cancel">キャンセル</string>
+    <string name="account_activity_no_account_dialog_login">ログイン</string>
+    
+    <string name="account_activity_ad_over_click_tittle">警報</string>
+    <string name="account_activity_ad_over_click_message">1時間以内で5クレジットが上限となります！</string>
+    
+    <string name="account_activity_facebook_content_description">Facebookで共有します。</string>
+    
+    <string name="account_activity_check_twitter_oauth_dialog_title">警報</string>
+    <string name="account_activity_check_twitter_oauth_dialog_message">Twitterログインが必要です！</string>
+    <string name="account_activity_check_twitter_oauth_dialog_positive_button">ログイン</string>
+    <string name="account_activity_check_twitter_oauth_dialog_negative_button">キャンセル</string>
+    <string name="account_activity_twitter_follow_success_message">Follow successful</string>
+    <string name="account_activity_twitter_post_message_success_message">送信しました！</string>
+    <string name="account_activity_twitter_post_message_dialog_tittle">Twitterで共有します。</string>
+    <string name="account_activity_twitter_post_message_dialog_cancel">キャンセル</string>
+    <string name="account_activity_twitter_post_message_dialog_confirm">投稿</string>
+    <string name="account_activity_twitter_post_message_dialog_logout_twitter">Twitterログアウト</string>
+    <string name="account_activity_twitter_post_over_click_tittle">警報</string>
+    <string name="account_activity_twitter_post_over_click_message">毎日1回だけTwitterで共有できます。</string>
+    <string name="account_activity_facebook_post_over_click_tittle">警報</string>
+    <string name="account_activity_facebook_post_over_click_message">毎日1回だけFacebookで共有できます</string>
+    
+    <string name="account_activity_tv_phonecard_buy">Phonecard payment (ベトナム国)</string>
+    <string name="account_activity_btn_phonecard_buy">Phonecard Pay</string>
+    <string name="account_activity_phonecard_dialog_tittle">Phonecard payment (ベトナム国)</string>
+    <string name="account_activity_phonecard_dialog_cancel">Cancel</string>
+    <string name="account_activity_phonecard_dialog_confirm">Pay</string>
+    <string name="account_activity_phonecard_dialog_lbl_cardtype">Card type</string>
+    <string-array name="account_activity_phonecard_dialog_spin_cardtype">
+        <item>Viettel</item>
+        <item>Mobifone</item>
+        <item>Vinaphone</item>
+        <item>Gate</item>
+    </string-array>
+    <string name="account_activity_phonecard_dialog_lbl_serial">Serial</string>
+	<string name="account_activity_phonecard_dialog_edit_serial_hint">serial number</string>
+    <string name="account_activity_phonecard_dialog_lbl_pin">Pin Number</string>
+    <string name="account_activity_phonecard_dialog_edit_pin_hint">pin number</string>
+    
+    <string name="account_activity_phonecard_lack_info_alert_dialog_tittle">Alert</string>
+    <string name="account_activity_phonecard_lack_info_alert_dialog_message">Please provide full information to start transaction!</string>
+    <string name="account_activity_phonecard_transaction_failure_alert_dialog_tittle">Payment Failure Alert</string>
+	<string name="account_activity_phonecard_transaction_success_alert_dialog_tittle">Payment Success</string>
+	
+	<string name="account_activity_login_error_tittle">Login Error</string>
+	<string name="account_activity_login_error_message">There was error on login process. Please try later!</string>
+	<string name="account_activity_login_error_ok_btn">OK</string>
+        
+    
+
+    <!-- Account dialog -->
+    <string name="choose_payment_method_dialog_tittle">Choose your payment method</string>
+
+    <string-array name="choose_payment_method_dialog_item_array">
+        <item>Telephone Card</item>
+        <item>Google Payment</item>
+    </string-array>
+
+    <!-- Toeic Result -->
+    <string-array name="toeic_result_dialog_toeic_part">
+        <item>パート 1: </item>
+        <item>パート 2: </item>
+        <item>パート 3: </item>
+        <item>パート 4: </item>
+        <item>パート 5: </item>
+        <item>パート 6: </item>
+        <item>パート 7: </item>
+    </string-array>
+
+    <string name="toeic_result_dialog_listening_score">聴解スコア: </string>
+    <string name="toeic_result_dialog_reading_score">読解スコア: </string>
+    <string name="toeic_result_dialog_total_score">統合スコア: </string>
+
+    <!-- Dictionary Manager -->
+    <string name="title_activity_dictionary_manager_manager">辞書</string>
+    <string name="dictionary_manager_action_add_dictionary">辞書データを追加</string>
+    <string name="dictionary_manager_local_dict_fragment_no_dict_string">データがありません！</string>
+    <string name="dictionary_manager_local_dict_fragment_add_dictionary">辞書データを追加</string>
+    <string name="dictionary_manager_local_dict_fragment_delete_dialog_tittle">警報</string>
+    <string name="dictionary_manager_local_dict_fragment_delete_dialog_message">この辞書を削除しますか？</string>
+    <string name="dictionary_manager_local_dict_fragment_delete_dialog_cancel_btn">NO</string>
+    <string name="dictionary_manager_local_dict_fragment_delete_dialog_confirm_btn">削除</string>
+    <string name="title_activity_toeic_zoomable_subview">ToeicZoomableSubviewActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_toeic_horizontal_subview_table_element_acitivity">ToeicHorizontalSubviewTableElementAcitivity</string>
+    
+    <!-- facebook -->
+    <string name="no_facebook_app_error">Facebookアプリがないので、共有できません！</string>
+    <string name="facebook_app_id">280826425424946</string>
+    
+    <!-- TwitterWebLoginActivity -->
+    <string name="twitter_web_login_activity_name">Twitterアカウントログイン</string>
+    <string name="twitter_web_login_activity_oauth_request_token_error">エラー</string>
+    <string name="twitter_web_login_activity_oauth_request_token_network_error">インターネットが接続できません！\n</string>
+    <string name="twitter_web_login_activity_oauth_request_token_unknown_error">後で再ログインしてみてください！\n</string>
+    <string name="twitter_web_login_activity_oauth_request_token_positive_button">閉じる</string>
+    
+    <!-- Epro app -->
+	<string name="epro_app_share_message">ePro TOEICアプリを試してみて!</string>
+	 
+	<!-- Epro first load app -->
+	<string name="app_first_load_language_code">ja</string>
+	<string name="app_first_load_dictionary_download_dialog_tittle">辞書ダウンロード</string>
+	<string name="app_first_load_dictionary_download_dialog_message">テスト中身で、ワードをプレスすると、辞書で検索できます。\n下記英和辞書をダウンロードしましょうか？\n   + </string>
+	<string name="app_first_load_dictionary_download_dialog_cancel_btn">キャンセル</string>
+	<string name="app_first_load_dictionary_download_dialog_download_btn">ダウンロード開始</string>
+	<string name="app_first_load_dictionary_download_start_download_toast_message">辞書インストールを開始</string>
+	
+	<string name="book_download_error_toast_message">ダウンロードエラー発生されました！</string>
+	
+	<!-- Version 1.1 tabhost launch home fragment -->
+	<string name="launch_home_fragment_tabhost_tabtittle_fulltest">完全テスト</string>
+	<string name="launch_home_fragment_tabhost_tabtittle_parttest">部分テスト</string>
+	<string name="launch_home_fragment_tabhost_tabtittle_download">テストダウンロード</string>
+	
+	<string name="toeic_dictionary_fragment_close">閉じる</string>
+	<string name="toeic_dictionary_fragment_title">辞書検索</string>
+	<string name="toeic_dictionary_fragment_unvailable_title">注意</string>
+	<string name="toeic_dictionary_fragment_unvailable_message">実戦モードで辞書検索機能を利用できませんので、テストを完了してください！</string>
+	<string name="toeic_dictionary_fragment_unvailable_btn">OK</string>
+	
+	
+</resources>

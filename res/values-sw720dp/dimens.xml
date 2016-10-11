@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+    <dimen name="toeic_listview_margin_left">0dp</dimen>
+    <dimen name="toeic_listview_margin_right">0dp</dimen>
+
+    <!-- audio bar value -->
+    <dimen name="toeic_audiobar_height">160dp</dimen>
+
+    <!-- dragView value -->
+    <dimen name="toeic_audiobar_panel_height">25dp</dimen>
+    <dimen name="toeic_audiobar_panel_width">76dp</dimen>
+    <dimen name="toeic_audiobar_padding_height">7dp</dimen>
+    <dimen name="toeic_audiobar_panel_margin_bottom">-2dp</dimen>
+
+    <!-- seekbar value -->
+    <dimen name="timeIndicatorTextSize">20sp</dimen>
+    <dimen name="timeIndicatorMarginLR">30dp</dimen>
+    <dimen name="toeic_audiobar_panel_seekbar_margin_left">5dp</dimen>
+    <dimen name="toeic_audiobar_panel_seekbar_margin_right">5dp</dimen>
+    <dimen name="toeic_audiobar_control_margin_top">-20dp</dimen>
+
+    <!-- back-forward button -->
+    <dimen name="forwardButtonWidth">70dp</dimen>
+    <dimen name="forwardButtonHeight">70dp</dimen>
+
+    <!-- plus minus button -->
+    <dimen name="plusButtonWidth">50dp</dimen>
+    <dimen name="plusButtonHeight">50dp</dimen>
+
+    <!-- play button -->
+    <dimen name="playButtonWidth">70dp</dimen>
+    <dimen name="playButtonHeight">70dp</dimen>
+    <dimen name="playButtonPadding">5dp</dimen>
+
+    <!-- toeic listview dimension -->
+    <dimen name="toeic_listview_margin_top">5dp</dimen>
+
+    <!-- toeic listview content layout margin -->
+    <dimen name="toeic_listview_layout_margin_lr">10dp</dimen>
+    <dimen name="toeic_listview_layout_content_view_margin_lr">10dp</dimen>
+
+    <!-- toeic listview row dimension -->
+    <dimen name="toeic_listview_row_header_height">50dp</dimen>
+    <dimen name="toeic_listview_row_header_textview_width">70dp</dimen>
+    <dimen name="toeic_listview_row_header_textview_textsize">30sp</dimen>
+    <dimen name="toeic_listview_row_header_textview_paddingLR">10dp</dimen>
+    <dimen name="toeic_listview_row_header_control_button_padding">10dp</dimen>
+    <dimen name="toeic_listview_row_header_control_margin_right">10dp</dimen>
+    <dimen name="toeic_listview_row_content_margin_top">2dp</dimen>
+    <dimen name="toeic_listview_row_content_margin_bottom">20dp</dimen>
+
+    <!-- part 1 content -->
+    <dimen name="Part1_content_imageview_margin_lr">5dp</dimen>
+
+    <!-- script part 1 textview -->
+    <dimen name="Part1_script_margin_lr">5dp</dimen>
+    <dimen name="Part1_script_margin_b">10dp</dimen>
+    <dimen name="Part1_script_textview_fontsize">18sp</dimen>
+    <dimen name="Part1_script_textview_header_fontsize">22sp</dimen>
+    <dimen name="Part1_script_textview_divider_margin_l">50dp</dimen>
+    <dimen name="Part1_script_textview_divider_margin_r">20dp</dimen>
+    <dimen name="Part1_script_textview_divider_margin_tb">10dp</dimen>
+    <dimen name="Part1_script_textview_divider_height">1dp</dimen>
+    <dimen name="Part1_script_textview_margin_left">10dp</dimen>
+    <dimen name="Part1_script_margin_top">10dp</dimen>
+    <dimen name="Part1_script_margin_bottom">10dp</dimen>
+
+    <!-- part 2 content -->
+    <dimen name="Part2_content_temporary_imageview_width">160dp</dimen>
+
+    <!-- script part 2 textview -->
+    <dimen name="Part2_script_margin_lr">5dp</dimen>
+    <dimen name="Part2_script_question_fontsize">18sp</dimen>
+    <dimen name="Part2_script_question_padding_l">10dp</dimen>
+    <dimen name="Part2_script_question_padding_r">10dp</dimen>
+    <dimen name="Part2_script_question_padding_t">10dp</dimen>
+    <dimen name="Part2_script_question_padding_b">10dp</dimen>
+    <dimen name="Part2_script_response_margin_l">10dp</dimen>
+    <dimen name="Part2_script_response_margin_r">5dp</dimen>
+    <dimen name="Part2_script_response_margin_top">10dp</dimen>
+    <dimen name="Part2_script_response_margin_bottom">10dp</dimen>
+    <dimen name="Part2_script_response_fontsize">18sp</dimen>
+    <dimen name="Part2_script_response_header_fontsize">22sp</dimen>
+    <dimen name="Part2_script_response_divider_margin_l">50dp</dimen>
+    <dimen name="Part2_script_response_divider_margin_r">20dp</dimen>
+    <dimen name="Part2_script_response_divider_margin_tb">10dp</dimen>
+    <dimen name="Part2_script_response_divider_height">1dp</dimen>
+
+    <!-- script part 3 textview -->
+    <dimen name="Part3_script_margin_lr">5dp</dimen>
+    <dimen name="Part3_script_margin_b">10dp</dimen>
+    <dimen name="Part3_script_subject_margin_r">10dp</dimen>
+    <dimen name="Part3_script_subject_fontsize">30sp</dimen>
+    <dimen name="Part3_script_content_fontsize">18sp</dimen>
+    <dimen name="Part3_script_content_margin_l">10dp</dimen>
+    <dimen name="Part3_script_content_margin_r">10dp</dimen>
+    <dimen name="Part3_script_divider_margin_l">50dp</dimen>
+    <dimen name="Part3_script_divider_margin_r">20dp</dimen>
+    <dimen name="Part3_script_divider_margin_tb">10dp</dimen>
+    <dimen name="Part3_script_divider_height">1dp</dimen>
+    
+    <!-- script part 4 textview -->
+    <dimen name="Part4_script_margin_lr">5dp</dimen>
+    <dimen name="Part4_script_margin_t">5dp</dimen>
+    <dimen name="Part4_script_margin_b">10dp</dimen>
+    <dimen name="Part4_script_content_fontsize">18sp</dimen>
+    <dimen name="Part4_script_content_padding_lr">5dp</dimen>
+    <dimen name="Part4_script_content_padding_tb">5dp</dimen>
+
+    <!-- part 5 content -->
+    <dimen name="Part5_content_margin_lr">5dp</dimen>
+    <dimen name="Part5_content_margin_t">0dp</dimen>
+    <dimen name="Part5_content_margin_b">5dp</dimen>
+
+    <!-- part 6 7 content -->
+    <dimen name="toeic_element_question_margin_lr">5dp</dimen>
+    <dimen name="toeic_element_question_margin_t">0dp</dimen>
+    <dimen name="toeic_element_question_margin_b">10dp</dimen>
+
+    <!-- custom radio button size -->
+    <dimen name="customRadioButtonWidth">50dp</dimen>
+    <dimen name="customRadioButtonHeight">50dp</dimen>
+    <dimen name="customRadioButtonMarginTopBottom">5dp</dimen>
+    <dimen name="customRadioButtonPadding">5dp</dimen>
+
+    <!-- custom radio button size for horizontal -->
+    <dimen name="horizontal_customRadioButtonWidth">60dp</dimen>
+    <dimen name="horizontal_customRadioButtonHeight">60dp</dimen>
+    <dimen name="horizontal_customRadioButtonMarginTopBottom">5dp</dimen>
+    <dimen name="horizontal_customRadioButtonPadding">5dp</dimen>
+
+    <!-- custom radio button size for vertical with text -->
+    <dimen name="vertical_with_text_customRadioButtonWidth">50dp</dimen>
+    <dimen name="vertical_with_text_customRadioButtonHeight">50dp</dimen>
+    <dimen name="vertical_with_text_customRadioButtonPadding">5dp</dimen>
+    <dimen name="vertical_with_text_questionTextPadding_lr">5dp</dimen>
+    <dimen name="vertical_with_text_questionTextPadding_tb">10dp</dimen>
+    <dimen name="vertical_with_text_questionText_textsize">18sp</dimen>
+    <dimen name="vertical_with_text_responseTextview_textsize">18sp</dimen>
+    <dimen name="vertical_with_text_responseTextview_margin_l">5dp</dimen>
+    <dimen name="vertical_with_text_responseTextview_margin_r">5dp</dimen>
+    <dimen name="vertical_with_text_response_divider_margin_l">50dp</dimen>
+    <dimen name="vertical_with_text_response_divider_margin_r">20dp</dimen>
+    <dimen name="vertical_with_text_response_divider_margin_tb">2dp</dimen>
+    <dimen name="vertical_with_text_response_divider_height">1dp</dimen>
+
+    <!-- tabview -->
+    <dimen name="toeic_tabview_background_layoutmargin_lr">10dp</dimen>
+    <dimen name="toeic_tabview_background_layoutmargin_tb">1dp</dimen>
+    <dimen name="toeic_tabview_viewpager_layoutmargin_top">1dp</dimen>
+    <dimen name="toeic_tabview_tab_padding">10dp</dimen>
+    <dimen name="toeic_tabview_tab_text_fontsize">25sp</dimen>
+
+    <!-- imageview in tabview -->
+    <dimen name="toeic_tabview_subview_imageview_layoutmargin_lr">5dp</dimen>
+    <dimen name="toeic_tabview_subview_imageview_layoutmargin_bottom">10dp</dimen>
+
+    <!-- paragraph in tabview -->
+    <dimen name="toeic_tabview_subview_paragraph_layoutmargin_lr">5dp</dimen>
+    <dimen name="toeic_tabview_subview_paragraph_layoutmargin_bottom">5dp</dimen>
+    <dimen name="toeic_tabview_subview_paragraph_fontsize_normal_1">18sp</dimen>
+    <dimen name="toeic_tabview_subview_paragraph_fontsize_normal_2">20sp</dimen>
+    <dimen name="toeic_tabview_subview_paragraph_fontsize_large_1">26sp</dimen>
+    <dimen name="toeic_tabview_subview_paragraph_fontsize_large_2">30sp</dimen>
+
+    <!-- tableview in tabview -->
+    <dimen name="toeic_tabview_subview_table_layoutmargin_lr">5dp</dimen>
+    <dimen name="toeic_tabview_subview_table_layoutmargin_bottom">5dp</dimen>
+    <dimen name="toeic_tabview_subview_table_fontsize_normal_1">16sp</dimen>
+    <dimen name="toeic_tabview_subview_table_fontsize_normal_2">18sp</dimen>
+    <dimen name="toeic_tabview_subview_table_fontsize_large_1">24sp</dimen>
+    <dimen name="toeic_tabview_subview_table_fontsize_large_2">28sp</dimen>
+
+    <!-- tabview check result button -->
+    <dimen name="toeic_tabview_check_result_layout_margin_lr">5dp</dimen>
+    <dimen name="toeic_tabview_check_result_layout_margin_t">5dp</dimen>
+    <dimen name="toeic_tabview_check_result_layout_margin_b">5dp</dimen>
+    <dimen name="toeic_tabview_check_result_button_width">50dp</dimen>
+    <dimen name="toeic_tabview_check_result_button_height">50dp</dimen>
+
+    <!-- launch activity side menu -->
+    <dimen name="launch_activity_side_menu_width">400dp</dimen>
+    <dimen name="launch_activity_side_menu_bottom_account_padding_left">10dp</dimen>
+    <dimen name="launch_activity_side_menu_bottom_account_layout_height">120dp</dimen>
+    <dimen name="launch_activity_side_menu_bottom_account_imgv_size">80dp</dimen>
+    <dimen name="launch_activity_side_menu_bottom_account_tv_margin_l">10dp</dimen>
+    <dimen name="launch_activity_side_menu_bottom_account_tv_textsize">20sp</dimen>
+    
+    <!-- launch activity side menu listview -->
+    <dimen name="launch_activity_side_menu_item_height">100dp</dimen>
+    <dimen name="launch_activity_side_menu_item_imgv_width">50dp</dimen>
+    <dimen name="launch_activity_side_menu_item_imgv_height">50dp</dimen>
+    <dimen name="launch_activity_side_menu_item_imgv_margin_left">10dp</dimen>
+    <dimen name="launch_activity_side_menu_item_tv_textsize">18sp</dimen>
+    <dimen name="launch_activity_side_menu_item_tv_margin_left">5dp</dimen>
+
+    <!-- launch home fragment -->
+    <dimen name="launch_home_network_error_imgv_width">50dp</dimen>
+    <dimen name="launch_home_network_error_imgv_height">50dp</dimen>
+    <dimen name="launch_home_network_error_tv_textsize">20sp</dimen>
+    <dimen name="launch_home_gridview_margin_top">120dp</dimen>
+    <dimen name="launch_home_progressbar_margin_left">10dp</dimen>
+    <dimen name="launch_home_tv_loading_padding_l">10dp</dimen>
+    <dimen name="launch_home_tv_loading_textsize">18sp</dimen>
+
+    <!-- launch home fragment mybookviewpager image -->
+    <dimen name="mybook_item_imageview_margin_lr">20dp</dimen>
+    <dimen name="mybook_item_imageview_margin_top">40dp</dimen>
+    <dimen name="mybook_item_imageview_padding_lr">2px</dimen>
+    <dimen name="mybook_item_imageview_padding_t">2px</dimen>
+    <dimen name="mybook_item_imageview_padding_b">2px</dimen>
+    <dimen name="mybook_item_textview_textsize">14sp</dimen>
+
+    <!-- launch home fragment newbook gridview image -->
+    <dimen name="launch_home_newbook_item_width">180dp</dimen>
+    <dimen name="launch_home_newbook_item_margin_lr">10dp</dimen>
+    <dimen name="launch_home_newbook_item_padding">4dp</dimen>
+    <dimen name="launch_home_newbook_padding_lr">2px</dimen>
+    <dimen name="launch_home_newbook_padding_t">2px</dimen>
+    <dimen name="launch_home_newbook_padding_b">2px</dimen>
+
+    <!-- launch store fragment -->
+    <dimen name="launch_store_vertical_spacing">6dp</dimen>
+    <dimen name="launch_store_horizontal_spacing">6dp</dimen>
+    <dimen name="launch_store_padding">3dp</dimen>
+
+    <!-- launch store fragment item -->
+    <dimen name="launch_store_item_height">330dp</dimen>
+    <dimen name="launch_store_item_margin_lr">0dp</dimen>
+    <dimen name="launch_store_item_margin_t">0dp</dimen>
+    <dimen name="launch_store_item_margin_b">2px</dimen>
+    <dimen name="launch_store_item_imgv_margin_lr">10dp</dimen>
+    <dimen name="launch_store_item_imgv_margin_t">15dp</dimen>
+    <dimen name="launch_store_item_imgv_padding">4dp</dimen>
+    <dimen name="launch_store_item_tv_title_padding_l">10dp</dimen>
+    <dimen name="launch_store_item_tv_title_textsize">16sp</dimen>
+    <dimen name="launch_store_item_tv_subtitle_textsize">14sp</dimen>
+    <dimen name="launch_store_item_tv_author_padding_l">10dp</dimen>
+    <dimen name="launch_store_item_tv_author_textsize">12sp</dimen>
+    <dimen name="launch_store_item_progress_btn_margin_lr">5dp</dimen>
+    <dimen name="launch_store_item_progress_btn_margin_tb">10dp</dimen>
+    <dimen name="launch_store_item_progress_btn_textsize">14sp</dimen>
+    
+    <!-- launch dictionary -->
+    <dimen name="launch_dictionary_favorite_button_height">40dp</dimen>
+    <dimen name="launch_dictionary_favorite_button_textsize">14sp</dimen>
+    <dimen name="launch_dictionary_favorite_button_padding">2dp</dimen>
+    
+    <!-- launch about -->
+    <dimen name="launch_about_horizontal_margin">10dp</dimen>
+    <dimen name="launch_about_vertical_margin">10dp</dimen>
+    <dimen name="launch_about_list_item_horizontal_margin">8dp</dimen>
+
+    <!-- dictionary -->
+    <dimen name="dict_show_word_dialog_webview_height">600dp</dimen>
+    <dimen name="dict_show_word_dialog_control_bar_margin">4dp</dimen>
+    <dimen name="dict_show_word_dialog_control_back_btn_width">50dp</dimen>
+    <dimen name="dict_show_word_dialog_control_back_btn_height">50dp</dimen>
+    <dimen name="dict_show_word_dialog_control_back_btn_padding">4dp</dimen>
+    
+    <dimen name="toeic_dict_fragment_listview_height">460dp</dimen>
+    
+
+    <!-- test history -->
+    <dimen name="history_listview_item_height">180dp</dimen>
+    <dimen name="history_listview_item_imgv_parent_width">150dp</dimen>
+    <dimen name="history_listview_item_imgv_height">170dp</dimen>
+    <dimen name="history_listview_item_imgv_width">130dp</dimen>
+    <dimen name="history_listview_item_imgv_padding">2px</dimen>
+    <dimen name="history_listview_item_middle_layout_padding_top">10dp</dimen>
+    <dimen name="history_listview_item_middle_layout_padding_left">10dp</dimen>
+    <dimen name="history_listview_item_tv_title_textsize">22sp</dimen>
+    <dimen name="history_listview_item_tv_mode_textsize">14sp</dimen>
+    <dimen name="history_listview_item_tv_status_textsize">14sp</dimen>
+    <dimen name="history_listview_item_tv_score_textsize">20sp</dimen>
+    <dimen name="history_listview_item_btn_action_width">86dp</dimen>
+    <dimen name="history_listview_item_btn_action_height">48dp</dimen>
+    <dimen name="history_listview_item_btn_action_textsize">15sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- account activity -->
+    	<!-- account layout -->
+	    <dimen name="account_activity_account_layout_height">120dp</dimen>
+	    <dimen name="account_activity_account_layout_margin_t">10dp</dimen>
+	    <dimen name="account_activity_account_layout_padding_lr">10dp</dimen>
+	    <dimen name="account_activity_account_layout_imgv_size">100dp</dimen>
+	    <dimen name="account_activity_account_layout_imgv_margin_r">10dp</dimen>
+	    <dimen name="activity_account_account_layout_tv_margin_top">20dp</dimen>
+	    <dimen name="activity_account_account_layout_tv_size">24sp</dimen>
+	    <dimen name="activity_account_account_layout_credit_imgv_width">40dp</dimen>
+	    <dimen name="activity_account_account_layout_credit_imgv_height">25dp</dimen>
+	    <dimen name="activity_account_account_layout_credit_imgv_margin_t">10dp</dimen>
+	    <dimen name="activity_account_account_layout_credit_tv_margin_l">10dp</dimen>
+	    <dimen name="activity_account_account_layout_log_btn_width">90dp</dimen>
+	    <dimen name="activity_account_account_layout_log_btn_height">45dp</dimen>
+	    <dimen name="activity_account_account_layout_log_btn_padding">3dp</dimen>
+	    <dimen name="activity_account_account_layout_log_btn_textsize">14sp</dimen>
+	    
+	    
+	    <!-- share layout -->
+	    <dimen name="account_activity_share_layout_height">100dp</dimen>
+	    <dimen name="account_activity_share_layout_margin_t">10dp</dimen>
+	    <dimen name="account_activity_share_layout_padding_lr">10dp</dimen>
+	    <dimen name="account_activity_share_layout_imgv_width">70dp</dimen>
+	    <dimen name="account_activity_share_layout_imgv_height">70dp</dimen>
+	    <dimen name="account_activity_share_layout_imgv_margin">20dp</dimen>
+	    
+	    <!-- buy credit layout -->
+	    <dimen name="account_activity_google_credit_layout_height">260dp</dimen>
+	    <dimen name="account_activity_google_credit_layout_margin_t">10dp</dimen>
+	    <dimen name="account_activity_google_credit_layout_padding_lr">10dp</dimen>
+	    <dimen name="account_activity_google_credit_top_tv_padding_tb">15dp</dimen>
+	    <dimen name="account_activity_google_credit_bottom_tv_padding_tb">5dp</dimen>
+	    <dimen name="account_activity_google_credit_btn_size">120dp</dimen>
+		<dimen name="account_activity_google_credit_btn_textsize">24sp</dimen>
+	    <dimen name="account_activity_google_credit_btn_margin_t">15dp</dimen>
+	    
+	    <!-- advertisement layout -->
+	    <dimen name="account_activity_ad_layout_height">120dp</dimen>
+	    <dimen name="account_activity_ad_layout_margin_t">10dp</dimen>
+	    <dimen name="account_activity_ad_layout_padding_lr">10dp</dimen>
+	    <dimen name="account_activity_ad_tv_margin_t">5dp</dimen>
+	    <dimen name="account_activity_ad_tv_margin_bottom">10dp</dimen>
+	    
+	    <!-- Phonecard payment -->
+	    <dimen name="account_activity_phonecard_layout_height">80dp</dimen>
+	    <dimen name="account_activity_phonecard_layout_margin_t">10dp</dimen>
+	    <dimen name="account_activity_phonecard_layout_padding_lr">10dp</dimen>
+	    <dimen name="account_activity_phonecard_btn_width">130dp</dimen>
+	    <dimen name="account_activity_phonecard_btn_height">45dp</dimen>
+	    <dimen name="account_activity_phonecard_btn_padding">3dp</dimen>
+		<dimen name="account_activity_phonecard_btn_textsize">14sp</dimen>
+	    
+	<!-- Toeic Activity View Result Dialog -->
+		<dimen name="toeic_result_dialog_pie_chart_height">200dp</dimen>
+		<dimen name="toeic_result_dialog_pie_chart_textSize">24sp</dimen>
+		<dimen name="toeic_result_dialog_pie_chart_margin">10dp</dimen>
+		<dimen name="toeic_result_dialog_pie_chart_boundStrokeWidth">1dp</dimen>
+		<dimen name="toeic_result_dialog_explaination_padding_lr">20dp</dimen>
+		<dimen name="toeic_result_dialog_explaination_margin_t">5dp</dimen>
+		<dimen name="toeic_result_dialog_explaination_square_size">14dp</dimen>
+		<dimen name="toeic_result_dialog_explaination_tv_padding_lr">5dp</dimen>
+		<dimen name="toeic_result_dialog_explaination_score_tv_margin">10dp</dimen>
+		
+		<dimen name="toeic_result_dialog_explaination_reading_listening_score_title_textsize">20sp</dimen>
+		
+		
+	<!-- Dictionary activity -->
+		<dimen name="dict_local_manage_fragment_row_horizontal_margin">10dp</dimen>
+    	<dimen name="dict_local_manage_fragment_row_vertical_margin">10dp</dimen>
+    	
+    <!-- Version 1.1 tabhost launch home fragment -->
+    <dimen name="launch_home_fragment_tabhost_tabwidget_imagesize">48dp</dimen>
+    <dimen name="launch_home_fragment_tabhost_tabwidget_textsize">18sp</dimen>
+    <dimen name="launch_home_fragment_tabhost_tabwidget_bottommargin">10dp</dimen>
+    	
+</resources>

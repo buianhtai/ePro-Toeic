@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/epro_base_list_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/epro_base_list_fragment_progress_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/epro_base_list_fragment_progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/epro_base_list_fragment_list_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.mZone.epro.common.view.NoHorizontalScrollTextView
+            android:id="@+id/epro_base_list_fragment_tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+        <ListView
+            android:id="@+id/epro_base_list_fragment_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+    </RelativeLayout>
+    
+</RelativeLayout>

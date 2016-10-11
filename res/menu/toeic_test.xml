@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:supportlibrary="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_timer"
+        android:orderInCategory="98"
+        supportlibrary:showAsAction="withText|always|collapseActionView"
+        android:title="00:00:00"/>
+    <item
+        android:id="@+id/action_dictionary"
+        android:orderInCategory="99"
+        supportlibrary:showAsAction="always"
+        android:title="@string/toeic_test_menu_action_dictsearch"
+        android:icon="@drawable/ic_action_search"/>
+    
+    <item
+        android:id="@+id/action_undo"
+        android:orderInCategory="100"
+        supportlibrary:showAsAction="ifRoom"
+        android:title="@string/toeic_test_menu_action_undo"
+        android:icon="@drawable/ic_action_undo"/>
+    <item
+        android:id="@+id/action_finish_test"
+        android:orderInCategory="101"
+        supportlibrary:showAsAction="withText|ifRoom"
+        android:title="@string/toeic_test_menu_action_finish_test"/>
+</menu>

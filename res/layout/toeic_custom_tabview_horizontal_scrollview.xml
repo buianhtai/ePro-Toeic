@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mZone.epro.toeic.customView.ToeicCustomHorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/toeic_tabview_subview_table_layoutmargin_lr"
+    android:paddingRight="@dimen/toeic_tabview_subview_table_layoutmargin_lr"
+    android:paddingTop="@dimen/toeic_tabview_subview_table_layoutmargin_bottom"
+    android:paddingBottom="@dimen/toeic_tabview_subview_table_layoutmargin_bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#00000000"
+        android:id="@+id/horizontalLinearLayout">
+    </LinearLayout>
+    
+</com.mZone.epro.toeic.customView.ToeicCustomHorizontalScrollView>

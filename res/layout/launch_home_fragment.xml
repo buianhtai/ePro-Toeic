@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    android:background="@drawable/launch_home_background">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerMyBook"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.655"/>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center">
+        <com.jess.ui.TwoWayGridView
+	        android:id="@+id/newbookGridview"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginTop="@dimen/launch_home_gridview_margin_top"
+		    android:layout_alignParentBottom="true"
+		    app:listSelector="#a081cb39"
+		    app:drawSelectorOnTop="false"
+		    app:cacheColorHint="#E8E8E8"
+		    app:numRows="1"
+		    app:verticalSpacing="0dp"
+		    app:horizontalSpacing="0dp"
+		    app:stretchMode="columnWidth"
+		    app:scrollDirectionPortrait="horizontal"
+		    app:scrollDirectionLandscape="horizontal"
+		    app:gravity="center"
+		    android:visibility="visible"/>
+    </RelativeLayout>
+</LinearLayout>

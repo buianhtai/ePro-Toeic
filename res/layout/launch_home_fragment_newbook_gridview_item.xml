@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <ImageView 
+        android:id="@+id/newbookImageView"
+        android:layout_width="@dimen/launch_home_newbook_item_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/launch_home_newbook_item_margin_lr"
+        android:layout_marginRight="@dimen/launch_home_newbook_item_margin_lr"
+        android:paddingLeft="@dimen/launch_home_newbook_padding_lr"
+        android:paddingRight="@dimen/launch_home_newbook_padding_lr"
+        android:paddingTop="@dimen/launch_home_newbook_padding_t"
+        android:paddingBottom="@dimen/launch_home_newbook_padding_b"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/image_view_content_description"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.mZone.epro"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:orientation="vertical">
+    <com.mZone.epro.toeic.customView.ToeicCustomRadioGroup 
+        android:id="@+id/elementQuestion"
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/toeic_element_question_margin_t"
+		android:layout_marginBottom="@dimen/toeic_element_question_margin_b"
+		android:layout_marginLeft="@dimen/toeic_element_question_margin_lr"
+		android:layout_marginRight="@dimen/toeic_element_question_margin_lr"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:splitMotionEvents="false"
+		app:isConnectedWithText="1">
+	</com.mZone.epro.toeic.customView.ToeicCustomRadioGroup >
+</LinearLayout>
+

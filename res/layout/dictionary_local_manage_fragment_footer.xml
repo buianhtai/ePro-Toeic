@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/addDictionaryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_new_black"
+        android:text="@string/dictionary_manager_local_dict_fragment_add_dictionary"
+        android:gravity="left|center_vertical"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>
